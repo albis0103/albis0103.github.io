@@ -11,11 +11,10 @@ to estimate Unknown value  between item
 		
 	
 - Vandermonde Matrix
-		- 給 n 個函數點 ($x_1, x_2, \cdots, x_n$), Vandermonde Matrix $V_{ij}=x_i^{j-1}$:
-		- 基底：$\{1, x, \cdots, x^{n-1}\}$
-
-$V = \begin{pmatrix} 1 & x_0^1 & x_0^2 & \cdots & x_0^{n-1} \\ 1 & x_1^1 & x_1^2 & \cdots & x_1^{n-1} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & x_{n-1}^1 & x_{n-1}^2 & \cdots & x_{n-1}^{n-1} \end{pmatrix}, \det(V)=\prod_{1\leq i<j\leq n}(x_j-x_i)$$
-			interpolation function:
+	- 給 n 個函數點 ($x_1, x_2, \cdots, x_n$), Vandermonde Matrix $V_{ij}=x_i^{j-1}$:
+	- 基底：$\{1, x, \cdots, x^{n-1}\}$
+	- $$V = \begin{pmatrix} 1 & x_0^1 & x_0^2 & \cdots & x_0^{n-1} \\ 1 & x_1^1 & x_1^2 & \cdots & x_1^{n-1} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & x_{n-1}^1 & x_{n-1}^2 & \cdots & x_{n-1}^{n-1} \end{pmatrix}, \det(V)=\prod_{1\leq i<j\leq n}(x_j-x_i)$$ 
+	- interpolation function:
 			$f(x_0)=c_0+c_1x_0^1+\cdots+c_{n-1}x_0^{n-1}$ 
 			$f(x_0)=c_0+c_1x_1^1+\cdots+c_{n-1}x_1^{n-1}$ 
 			...

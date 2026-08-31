@@ -5,7 +5,7 @@ $k(x_i, x_j) = e^{-\gamma||x_i-x_j||^2}$
 $=e^{-\frac{||x_i-x_j||^2}{2\sigma^2}} = exp(-\frac{||x_i||^2-2x_i^Tx_j+||x_j||^2}{2\sigma^2})$   
 
 	$e^{\frac{x_i^Tx_j}{\sigma^2}}=\sum_{n=0}^{\infty}\frac{(x_i^Tx_j)^n}{\sigma^{2n}n!}=\sum_{n=0}^{\infty} \frac{\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle}{\sigma^{2n} n!}$
-		$=\sum_{n=0}^{\infty} \frac{1}{\sigma^{2n} n!}\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle =\sum_{n=0}^{\infty} \frac{1}{\sigma^{n} \sqrt{n!}}\frac{1}{\sigma^{n} \sqrt{n!}}\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle$  
+	$=\sum_{n=0}^{\infty} \frac{1}{\sigma^{2n} n!}\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle =\sum_{n=0}^{\infty} \frac{1}{\sigma^{n} \sqrt{n!}}\frac{1}{\sigma^{n} \sqrt{n!}}\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle$  
 	
 $k(x_i, x_j) = e^{-\frac{||x_i||^2+||x_j||^2}{2\sigma^2}}\sum_{n=0}^{\infty} \frac{1}{\sigma^{n} \sqrt{n!}}\frac{1}{\sigma^{n} \sqrt{n!}}\langle x_i^{\otimes n}, x_j^{\otimes n} \rangle$
 	$= e^{-\frac{||x||^2}{2\sigma^2}}\sum_{n=0}^{\infty}\langle \frac{ x_i^{\otimes n}}{\sigma^{n} \sqrt{n!}}\frac{x_j^{\otimes n}}{\sigma^{n} \sqrt{n!}}  \rangle$

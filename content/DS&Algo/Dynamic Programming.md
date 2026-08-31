@@ -1,3 +1,12 @@
+mind:
+1. base case: $S_0$, the Initial of the Finish value
+2. State Transition: $S_{t+1}=TS_t$, $T$ : Transition matrix
+	- ex.$\begin{pmatrix}F_{t+1}\\ F_t\end{pmatrix}=\begin{pmatrix}1 \; 0 \\ 1 \; 0\end{pmatrix}\begin{pmatrix}F_t \\ F_{t+1}\end{pmatrix}$
+3. Topology Order: Consider State Transition order
+	- Bottom - up
+	- Top - Down
+4. State Compression: $\mathbb{R}^n \rightarrow \mathbb{R}^k \text{ or }\mathbb{R}^1$ 
+
 
 **Knapsack Problem**
 : n items( $i^{th}$ item weight $w_i$ , value $v_i$ ), knapsack can carrying $K$  weight
