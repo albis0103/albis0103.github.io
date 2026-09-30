@@ -7,10 +7,19 @@ $$\frac{\partial F}{\partial y}- \frac{d}{dx}\frac{\partial F'}{\partial y'}=0$$
 ![[IMG_3106.jpg]]
 - perturbation function(noise) $\eta(x)$ : Satisfy $\eta(a)=\eta(b)=0$
 - $\bar y(x)=y(x)+\epsilon \eta(x)$ 
-$I(\epsilon)=\int_a^bF(x;y+\epsilon \eta, y'+\epsilon \eta')dx, I'(0)=0$
-$I'(\epsilon)=\int_a^b \left[\frac{\partial F}{\partial \bar y}\eta+\frac{\partial F}{\partial \bar y'}\eta'\right]dx$ 
-- $\int_a^b \frac{\partial F}{\partial \bar y'}\eta' dx=[\frac{\partial F}{\partial \bar y}\eta]_a^b-\eta \int_a^b\frac{d}{dx}\frac{\partial F}{\partial \bar y}$  
+$$I(\epsilon)=\int_a^bF(x;y+\epsilon \eta, y'+\epsilon \eta')dx, I'(0)=0$$
+$$I'(\epsilon)=\int_a^b \left[\frac{\partial F}{\partial \bar y}\eta+\frac{\partial F}{\partial \bar y'}\eta'\right]dx$$ 
+$$\int_a^b \frac{\partial F}{\partial \bar y'}\eta' dx=[\frac{\partial F}{\partial \bar y}\eta]_a^b-\eta \int_a^b\frac{d}{dx}\frac{\partial F}{\partial \bar y}$$  
 	- $u=\frac{\partial F}{\partial \bar y}, dv = \eta'$ 
 	- $du=\frac{d}{dx}\frac{\partial F}{\partial \bar y}, v = \eta$ 
-$I'(\epsilon)=\int_a^b \left[\frac{\partial F}{\partial \bar y}-\frac{d}{dx}\frac{\partial F}{\partial \bar y}\right]\eta(x)dx$  
+$$I'(\epsilon)=\int_a^b \left[\frac{\partial F}{\partial \bar y}-\frac{d}{dx}\frac{\partial F}{\partial \bar y}\right]\eta(x)dx$$  
 $$\frac{\partial F}{\partial y}- \frac{d}{dx}\frac{\partial F'}{\partial y'}=0$$
+
+### Second Variation
+In Calculus of Variation, Second Variation is functional to Taylor expansion to second at point.
+
+$$J[y] = \int_a^bF(x,y,y')dx$$
+$$J[y + \epsilon\eta] = \Phi(\epsilon)$$
+at $\epsilon = 0$ Taylor expansion
+$$\Phi(\epsilon) = \Phi(0)+\epsilon\delta J + \delta^2J \frac{\epsilon^2}{2!} + O(\epsilon^3)$$
+$$\delta^2J = \int_a^b(F_{yy}\eta^2 + 2F_{yy'}\eta\eta'+F_{y'y'}\eta'^2)dx$$

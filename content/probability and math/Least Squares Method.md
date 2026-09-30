@@ -8,6 +8,6 @@ $$\hat \theta = arg\; min_\theta||y-X\theta||_2^2,\; X \in \mathbb{R}^{n \times 
 
 $$\nabla_{\theta} ||y-\theta X||=0$$
 $$\frac{\partial }{\partial \theta }(y-\theta X)(y - \theta X)^T=yy^T-2\theta Xy^T + \theta XX^T \theta^T=0$$ 
-$-2X^T(y-X\theta )=0$ 
-$(X^TX)\theta=X^Ty$
+$$-2X^T(y-X\theta )=0$$
+$$(X^TX)\theta=X^Ty$$
 $$\hat \theta =(X^TX)^{-1}X^Ty$$

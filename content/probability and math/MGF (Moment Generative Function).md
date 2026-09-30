@@ -10,16 +10,15 @@ $$M_X(t)=\mathcal{L}\{f_X(x)\}=E[e^{tX}]  = \int_{-\infty}^{\infty}e^{sX}f_X(x)d
 
 Key property: Suppose $M_X(t)$ and $M_Y(t)$ for r.v $X,Y$ exist for all $|t|<h$ for some $h>0$ 
 - **Uniqueness**: $M_X(t)=M_Y(t)$ then $F_X(z)=F_Y(z)$ one to one mapping
-		When $MGF$ existed, there had unique distribution correspond. Uniqueness commonly used for Linear Combination of Independent r.v 
-			$M_X(t)=p_1e^{a_1t}+\cdots p_ke^{a_kt}, p_i=p_X(x), \sum p_i = 1$ , then 
-			ans: discrete r.v. $X$ pmf is $p_X(x)=\begin{cases}p_i, &\text{for }x=a_i, \; i=1,..,k\\0, &\text{otherwise}\end{cases}$ 
+	- When $MGF$ existed, there had unique distribution correspond. Uniqueness commonly used for Linear Combination of Independent r.v 
+		- $M_X(t)=p_1e^{a_1t}+\cdots p_ke^{a_kt}, p_i=p_X(x), \sum p_i = 1$ , then 
+			- ans: discrete r.v. $X$ pmf is $p_X(x)=\begin{cases}p_i, &\text{for }x=a_i, \; i=1,..,k\\0, &\text{otherwise}\end{cases}$ 
 - **Linear Transformation:**
 	- $M_{aX+b}(t) = e^{bt}M_X(at)$
 	- $S=X_1 + \cdots + X_n, X_1\cdots X_n$ are independent r.v. with mgf $M_1(t),\cdots, M_n(t)$ 
 		- $M_S(t) = M_1(t)\times \cdots \times M_n(t)$ 
 - **Moments and MGF:** $M_X(0)=1, M_X^{(n)}(0)=\mu_n=E[X^n]$ [[Moment]]
-	because $M_X(t)=\sum_{n=0}^{\infty}\frac{t^n}{n!}E[X^n]$
-	then let  $K_X(t)= ln M_X(t)$  
+	- because $M_X(t)=\sum_{n=0}^{\infty}\frac{t^n}{n!}E[X^n]$, then let  $K_X(t)= ln M_X(t)$  
 	- $K'(0)=E[X]$, because $K'(0)=\frac{M_X'(0)}{M_X(0)}=\frac{E[X]}{1}$
 	- $K''(0)=Var(X)$ because $K''(0)= \frac{\partial M_X'(0)/M_X(0)}{\partial t}=\frac{M_X''(0)M_X(0)-M_X'(0)^2}{M_X'(t)^2}=\frac{E[X^2]-E[X]^2}{1}$
 - Let r.v $X_1, \cdots X_n$ independent, and $S = \sum_{i=1}^nX_i$ 

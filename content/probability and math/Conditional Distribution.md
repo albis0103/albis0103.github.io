@@ -2,8 +2,8 @@ $\text{Conditional Distribution}=\frac{Joint}{Marginal}$
 ### PMF
 ![[Pasted image 20260726212414.png|291]]
 $$p_{Y|X}(y|x)=\frac{p_{X, Y}(x, y)}{p_X(x)}$$ 
-	$\sum_y p_{Y|X}(y|x) = \sum_y \frac{p_{X, Y}(x, y)}{p_X(x)}=\frac{1}{p_X(x)}\sum_yp_{X, Y}(x, y)$
-		$=\frac{1}{p_X(x)}p_X(x)=1$  
+$$\sum_y p_{Y|X}(y|x) = \sum_y \frac{p_{X, Y}(x, y)}{p_X(x)}=\frac{1}{p_X(x)}\sum_yp_{X, Y}(x, y)=\frac{1}{p_X(x)}p_X(x)=1$$
+  
 
 
 - for event $B$ of $Y$, $Y \in B$ given $X=x$ 

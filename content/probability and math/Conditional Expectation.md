@@ -9,6 +9,8 @@ $E(Y|x^*)$ = mean of $f_{Y|X}(y|x^*)$
 generalize $x* \rightarrow \forall x$ , $E(Y|x)$ is function
 ![[07_Expectation_wHWN 3.jpeg|291]]
 
+
+by Tower Property
 - $E_X\{E_{Y|X}[h(x)|X]\}=E_Y[h(Y)]$
 - $E_X\{E_{Y|X}[Y_i|X]\}=E_Y[Y_i]$ ![[07_Expectation_wHWN 4.jpeg]]
 $E_X\{E_{Y|X}[h(Y)|X]\}$

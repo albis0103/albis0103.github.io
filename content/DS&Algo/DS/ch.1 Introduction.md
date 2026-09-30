@@ -1,0 +1,32 @@
+
+- Pseudocode
+	- english - like
+	- algorithm header(In reality, only check header)
+		- Name
+		- Parameter
+		- Pre - condition: input situation
+			- no parameter: `Pre Nothing` 
+		- Post - condition: output situation
+		- ex. p.7
+			- line 2-4: 換頁
+		- note : 
+			- call by value: input parameter
+			- call by reference: output parameter
+		- note: why need output parameter & Return
+			- `return`只能回傳一個值
+	- program 三大結構
+		- sequence
+		- selection
+		- iterration
+	- Intelligent data names: describe the meaning of the data.
+		- Abbreviation: ex.numOfStudent
+- ADT
+	- Data type
+		- Array: Homogeneous sequence data
+		- Record: Heterogeneous combination of data
+	- OOP
+		- encapsulation
+- Model for ADT
+- Algo efficiency: complexity
+	- algo efficientcy focus on loops
+

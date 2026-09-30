@@ -24,7 +24,7 @@ Fluid
 	不一定是純物質，可以是混合物ex.maxture ex.air or multiphase ex.water
 
 continuum 連續體
-	隨空間與時間變化很平話可以被微分
+	隨空間與時間變化很平滑可以被微分
 	![[Pasted image 20260724152323.png]]
 	
 
