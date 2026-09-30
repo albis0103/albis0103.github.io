@@ -29,8 +29,11 @@ for each node
 2. Size
 	- The node at layer $k$  
 	- let $i = j - k$ 
+
 $$P(L≥k)=\sum_{j=k}^{\infty}p^j(1-p) = (1-p)\;p^k\sum_{m=0}^{\infty}p^m = (1-p)\;p^k \cdot \frac{1}{1-p}=p^k$$
+
 $$E[\text{totalNode}]=\sum_{i=1}^n\sum_{k=0}^{\infty}p^k = \frac{1}{1-p^k}\cdot n = O(n)$$
 
 **Perfect Skip Lists**
+
 each Layer, layer $i$ nodes $n_i = \frac{1}{2}n_{i+1}$  
