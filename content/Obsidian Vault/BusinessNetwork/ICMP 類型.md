@@ -1,0 +1,12 @@
+常見ICMP 類型
+- Type 0 : Echo Reply (回應回覆，Ping 的回應)
+- **Type 3 : Destination Unreachable (無法抵達目的地)**
+	- code 0 : Net Unreachable
+	- code 1 : Host Unreachable
+	- code 2 : Protocol Unreachable
+	- code 3 : Port Unreachable
+	- code 4 : 需Framententation 但設定不可分片
+- Type 5 : Redirect (重新導向路由路徑)
+- Type 8 : Echo (回應請求，Ping 的請求)
+- Type 11 : Time exceeded（超時，常見 Traceroute）
+- 
